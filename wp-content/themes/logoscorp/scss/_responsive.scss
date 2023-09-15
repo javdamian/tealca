@@ -1,0 +1,194 @@
+/* -----------------------------------------    Desktops    ------------------------------------- */
+
+/* Large Desktop */
+@media only screen and (max-width: 1920px) {
+    @import "_general_1920";
+    @import "_home_1920";
+    
+}
+
+@media only screen and (max-width: 1600px) {
+  @import "_general_1600";
+
+}
+
+@media only screen and (max-width: 1680px) {
+  @import "_general_1680";
+  @import "_home_1680";
+  @import "_cms_1680";
+
+}
+
+@media only screen and (max-width: 1440px) {
+  
+  @import "_general_1440";
+
+
+}
+
+/* Medium Desktop & iPad Pro Landscape */
+@media only screen and (max-width: 1366px) {
+  @import "_general_1366";
+  @import "_home_1366";
+  @import "_cms_1366";
+}
+
+/* Small Desktop & Galaxy Tab Landscape */
+@media only screen and (max-width: 1280px) {
+  @import "_general_1280";
+  @import "_home_1280";
+  @import "_cms_1280";
+}
+
+/**** Betheme starts mobile *****/
+@media only screen and (max-width: 1239px) {
+  @import "_general_1239";
+}
+
+
+/* --------------------------------------    Tablets $ Mobile    -------------------------------- */
+
+/* iPad Pro Portrait & iPad I/II Landscape */
+@media only screen and (max-width: 1024px) {
+
+  @import "_general_1024";
+  @import "_home_1024";
+  @import "_cms_1024";
+
+}
+
+/* iPad Pro Portrait & iPad I/II Landscape */
+@media only screen and (max-width: 992px) {
+
+  @import "_general_992";
+  @import "_home_992";
+  @import "_cms_992";
+
+
+}
+
+/* Portrait DIVI Theme*/
+@media only screen and (max-width: 980px) {
+
+  @import "_general_980";
+  @import "_home_980";
+  @import "_cms_980";
+
+}
+
+/* Galaxy Tab Portrait */
+@media only screen and (max-width: 800px) {
+
+  @import "_general_800";
+  @import "_home_800";
+  @import "_cms_800";
+
+
+}
+
+
+/* iPad I/II Portrait */
+@media only screen and (max-width: 768px) {
+
+  @import "_general_768";
+  @import "_home_768";
+  @import "_cms_768";
+
+
+}
+
+/* iPad I/II Portrait */
+@media only screen and (max-width: 767px) {
+
+  @import "_general_767";
+  @import "_home_767";
+  @import "_cms_767";
+
+
+}
+
+/* iPhone 6+ Landscape */
+@media only screen and (max-width: 736px) {
+
+  @import "_general_736";
+  @import "_home_736";
+  @import "_cms_736";
+
+
+}
+
+/* Phone 6 Landscape */
+@media only screen and (max-width: 667px) {
+
+  @import "_general_667";
+  @import "_home_667";
+  @import "_cms_667";
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  @import "_general_600";
+
+
+}
+
+/* Galaxy S3/S4/S5 Landscape*/
+@media only screen and (max-width: 640px) {
+
+  @import "_general_640";
+  @import "_home_640";
+  @import "_cms_640";
+
+
+}
+
+/* iPhone 5 Landscape */
+@media only screen and (max-width: 568px) {
+
+  @import "_general_568";
+  @import "_home_568";
+  @import "_cms_568";
+
+
+}
+
+/* iPhone 4 Landscape */
+@media only screen and (max-width: 480px) {
+
+  @import "_general_480";
+  @import "_home_480";
+  @import "_cms_480";
+
+
+}
+
+/* iPhone 6+ Portrait */
+@media only screen and (max-width: 414px) {
+
+  @import "_general_414";
+  @import "_home_414";
+  @import "_cms_414";
+
+}
+
+/* iPhone 6 Portrait */
+@media only screen and (max-width: 375px) {
+
+  @import "_general_375";
+  @import "_home_375";
+  @import "_cms_375";
+
+
+}
+
+/* iPhone 4/5 & Galaxy S3/S4/S5 Portrait */
+@media only screen and (max-width: 320px) {
+
+  @import "_general_320";
+  @import "_home_320";
+  @import "_cms_320";
+
+
+}

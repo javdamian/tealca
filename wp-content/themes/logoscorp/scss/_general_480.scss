@@ -1,0 +1,22 @@
+.logoscorp {
+
+    /*********************************
+        Header
+    **********************************/
+
+    &.et-db #et-boc .et-l--header {
+
+        .tc-header {
+
+            .tc-header-menu {
+
+                .menu-social-link {
+
+                    &::before {
+                        margin-left: 5%;
+                    }
+                }
+            }
+        }
+    }
+}

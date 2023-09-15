@@ -1,0 +1,40 @@
+.logoscorp {
+
+    /*********************************
+        Rates calculator
+        Calculadora de tarifas
+    **********************************/
+
+    .entry-content {
+
+        .result-table h2,
+        .tc-calc-title h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+
+
+    /*********************************
+        Header
+    **********************************/
+
+    &.et-db #et-boc .et-l--header {
+
+        .tc-header {
+            .et_pb_menu__search-button:after {
+                margin: 0 4px 0 18px;
+            }
+
+            .tc-header-menu {
+                
+                .et_mobile_menu {
+                    padding: 5px 5% 20px;
+                    .menu-social-link {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

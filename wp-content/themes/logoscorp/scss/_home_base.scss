@@ -1,0 +1,122 @@
+.logoscorp {
+
+    .clip-button {
+        clip-path: polygon(88% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+    }
+
+    /*********************************
+        Banner Home
+    **********************************/
+
+    &.et-db #et-boc .et-l .banner-home {
+        h1 {
+            font-size: clamp(60px, 4.167vw, 80px);
+            line-height: 1;
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 1.6vw, 1.875rem);
+        }
+
+        h1,
+        h2 {
+            padding-bottom: 0;
+            margin-bottom: 0
+        }
+    }
+
+    /*********************************
+        Fixed Social Media Sidebar
+    **********************************/
+
+    &.et-db #et-boc .et-l .tc-social-sidebar {
+
+        .et_pb_image {
+            background-color: #f6f6f6;
+            transition: all ease-in-out .5s;
+
+            img {
+                filter: invert(13%) sepia(26%) saturate(1178%) hue-rotate(161deg) brightness(22%) contrast(92%);
+                width: 38px;
+            }
+        }
+
+        .et_pb_image:hover {
+            background-color: $dark-blue;
+
+            img {
+                filter: none;
+            }
+        }
+    }
+
+    /*********************************
+        Section Services
+    **********************************/
+
+    #page-container .tc-home-services-section {
+
+        .et_pb_row {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .et_pb_module.et_pb_promo.tc-home-services {
+
+            .et_pb_promo_description {
+                padding-bottom: 0;
+            }
+    
+            h3 {
+                text-transform: uppercase;
+                font-size: clamp(3.25rem,3.125vw,3.75rem);
+                line-height: .8em;
+                letter-spacing: -2.1px;
+            }
+    
+            .et_pb_button {
+
+                &:hover {
+                    text-decoration: underline;
+                }
+    
+                &::after {
+                    font-weight: 800 !important;
+                    font-size: 1.75em !important;
+                }
+
+                &:hover::after {
+                    margin-left: .5em;
+                }
+            }
+        }
+    }  
+
+    .tc-home-offices {
+        h3 {
+            color: $dark-blue;
+            line-height: 1.01em;
+            margin-bottom: 0;
+        }
+        
+        p,
+        .et_pb_promo_description{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .et_pb_button {
+            clip-path: polygon(88% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+            padding: 1.375em 2.25em;
+
+        }
+
+        .et_pb_promo_description {
+            margin-bottom: clamp(30px,3.25vw,60px);
+        }
+
+    }
+
+}
+

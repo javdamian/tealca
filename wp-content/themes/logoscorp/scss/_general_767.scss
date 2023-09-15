@@ -1,0 +1,99 @@
+.logoscorp {
+
+    .tc-home-tracking {
+        padding: 12px 10px 10px;
+    }
+
+    //Search Module
+    .tc-home-tracking {
+
+        .home-tracking-link {
+            padding: 10px;
+        }
+    }
+
+    /*********************************
+        Rows
+    **********************************/
+
+    .tc-row {
+        .et_pb_column:first-child {
+            .et_pb_text {
+                h2 {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+
+    .tc-header-2 h1 {
+        font-size: 1.75rem;
+    }
+
+    /*********************************
+        Blog
+    **********************************/
+
+    .tc-blog {
+
+        .et_pb_ajax_pagination_container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /*********************************
+        Newsletter
+    **********************************/
+
+    .tc-newsletter {
+
+        .et_pb_newsletter_field {
+            flex-basis: 100%;
+
+        }
+
+        .et_pb_newsletter_button_wrap {
+            flex-basis: 100%;
+        }
+    }
+
+
+    .tc-home-services h3 {
+        font-size: 2.5rem;
+    }
+
+    /*********************************
+        Blog 
+    **********************************/
+    .tlc-blog {
+
+        // Post grid
+        .et_pb_post {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .entry-featured-image-url {
+            margin: 0 0 30px;
+            max-width: unset;
+
+        }
+
+        .entry-title {
+            grid-area: title;
+            padding: 0;
+        }
+
+        .post-meta {
+            grid-area: meta;
+        }
+
+        .post-content {
+            grid-area: content;
+
+
+        }
+
+    }
+}

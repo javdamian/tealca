@@ -1,0 +1,43 @@
+.logoscorp {
+
+
+    /*********************************
+        Rows
+    **********************************/
+
+    .tc-row {
+        .et_pb_column:first-child {
+            .et_pb_text {
+                padding-right: 9%;
+            }
+        }
+    }
+
+    .entry-content {
+
+        .rates-form {
+
+            #rates-result-table {
+
+                tbody {
+                    grid-template-columns: .35fr .3fr repeat(3, 0.2fr);
+                }
+            }
+
+        }
+    }
+
+    &.et-db #et-boc .et-l--header {
+        .tc-header {
+            
+            .tc-header-menu {
+
+                &.et_pb_menu .et-menu>li {
+                    padding-left: 11px;
+                    padding-right: 11px;
+                }
+            }
+        }
+    }
+
+}

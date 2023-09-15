@@ -1,0 +1,33 @@
+.logoscorp {
+
+
+    /*********************************
+        Rows
+    **********************************/
+
+    .tc-row {
+        .et_pb_column:first-child {
+            .et_pb_text {
+                padding-right: 15%;
+            }
+        }
+    }
+
+    /*********************************
+        Headers
+    **********************************/
+    .tc-header-2 {
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 4rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+}

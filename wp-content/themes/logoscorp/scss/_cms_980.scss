@@ -1,0 +1,73 @@
+.logoscorp {
+    .tc-calc-tarifas .tc-calc-title {
+        width: 100%;
+    }
+
+    .tc-calc-tarifas .et_pb_text_inner {
+        display: flex;
+        flex-flow: column;
+    }
+
+     /*********************************
+        Offices
+    *********************************/
+    .offices-selection {
+
+        .offices-list {
+            grid-template-columns: 1fr;
+        }
+
+        .office-button {
+            max-width: 200px;
+        }
+    }
+    
+    /*********************************
+        Home Blog
+    **********************************/
+    .blog-home {
+        .tc-blog {
+            .et_pb_ajax_pagination_container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    /*********************************
+        Contact Form
+    **********************************/
+
+    .contact-form-section {
+
+        .et_pb_column {
+
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: 
+            "title"
+            "phones"
+            "form";
+
+            .contact-form {
+
+                margin-top: 0;
+  
+            }
+
+            .contact-phones {
+
+                &:before {
+                    margin: -2px 0 0 -9px;
+                }
+            }
+
+            .telefonos-contacto {
+                gap:5px 2px;
+            }
+
+            .telefonos-contacto {
+                margin-left:50px;
+            }
+        }
+    }
+
+}

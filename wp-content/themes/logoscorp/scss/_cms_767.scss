@@ -1,0 +1,96 @@
+.logoscorp {
+
+    /*********************************
+        Offices
+    *********************************/
+
+    .offices-selection {
+
+        .accordion {
+            display: flex;
+            border-top: 1px solid $light-gray;
+        }
+
+        .offices-select {
+            margin-bottom: 30px;
+        }
+
+        .state-name {
+            margin-bottom: 15px;
+        }
+
+        #flush-headingOne {
+            width: 100%;
+        }
+
+        #flush-headingOne:before {
+            content: url(/wp-content/uploads/2021/06/001_ICONO_GPS.svg);
+        }
+
+        .offices-by-state {
+            flex-direction: column;
+            padding: 20px 0 18px;
+
+        }
+
+        .all-offices {
+            width: 100%;
+        }
+
+        .offices-group {
+            width: 100%;
+        }
+
+
+        .offices-list {
+            grid-template-columns: 1fr;
+        }
+
+        .location-title {
+            font-size: 2rem;
+        }
+
+        .office-button {
+            max-width: 100%;
+        }
+    }
+
+    /*********************************
+        Office Details
+    **********************************/
+
+    .office-info-toggle {
+
+        .row {
+            .phones-col {
+                border-left: none;
+                padding-left: .75rem;
+            }
+        }
+    }
+
+    /*********************************
+        Home Blog
+    **********************************/
+    .blog-home {
+        .tc-blog {
+            .et_pb_ajax_pagination_container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    /*********************************
+        Section Services
+    **********************************/
+
+    #page-container .tc-home-services-section {
+
+        .et_pb_module.et_pb_promo.tc-home-services {
+    
+            h3 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

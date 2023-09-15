@@ -1,0 +1,38 @@
+.logoscorp {
+
+    /*********************************
+        Office Details
+    **********************************/
+
+    .office-info-toggle {
+
+        .row {
+            .address-col {
+                padding-right: 5%;
+            }
+            .phones-col {
+                padding-left: 2%;
+            }
+
+        }
+
+        .address-row,
+        .email-row {
+
+            flex-direction: column;
+
+            &> * {
+                width: 100%;
+            }
+            
+            
+            .text-dec {
+                padding-left: 1.5em;
+            }
+           
+        }
+
+
+    }
+
+}

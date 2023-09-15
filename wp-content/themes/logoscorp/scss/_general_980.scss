@@ -1,0 +1,318 @@
+.logoscorp {
+
+
+    /*********************************
+        Header
+    **********************************/
+
+    &.et-db #et-boc .et-l--header {
+
+        .tc-header {
+
+            .box-header-title,
+            .et_pb_module_header,
+            p {
+                display: none;
+            }
+
+            .et_pb_button_module_wrapper {
+                text-align: center;
+            }
+
+            .et_pb_menu__wrap {
+                &:after {
+                    display: none;
+                }
+            }
+
+            .et_pb_menu__search-button:before {
+                content: '';
+                width: 1px;
+                height: 16px;
+                background: $medium-gray;
+                margin-left: 16px;
+
+            }
+
+            .et_pb_menu__search-button:after {
+                margin: 0 4px 0 18px;
+            }
+
+            .tc-header-menu {
+                .mobile_nav .mobile_menu_bar:before {
+                    color: $dark-gray;
+                }
+
+                .et_pb_menu__logo {
+                    margin-right: 0;
+                    width: 64px;
+                }
+
+                .menu-social-link {
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 30px;
+                        height: 30px;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        margin-top: 8px;
+                        margin-left: 6.5%;
+                        z-index: -1;
+                    }
+
+                    &.menu-email-link {
+
+                        &::before {
+                            background-image: url("/wp-content/uploads/2022/02/003_ICONO_MAIL.svg");
+                        }
+                    }
+
+                    &.menu-twitter-link {
+                        &::before {
+                            background-image: url("/wp-content/uploads/2022/02/003_ICONO_TWITTER.svg");
+                        }
+                    }
+
+                    &.menu-linkedin-link {
+                        &::before {
+                            background-image: url("/wp-content/uploads/2022/02/003_ICONO_LINKEDIN.svg");
+                        }
+                    }
+
+                    &.menu-instagram-link {
+                        &::before {
+                            background-image: url("/wp-content/uploads/2022/02/003_ICONO_INSTAGRAM.svg");
+                        }
+                    }
+
+                    &:link,
+                    &:active,
+                    &:visited {
+                        &:before {
+                            opacity: .5;
+                        }
+                    }
+                }
+
+                .mobile_nav.opened .et_mobile_menu {
+                    display: flex
+                }
+
+                .et_mobile_menu {
+                    
+                    flex-wrap: wrap;
+                    padding: 10px 5% 40px;
+
+                    .menu-item:not(.menu-social-link) {
+                        width: 100%;
+                    }
+
+                    .menu-social-link {
+                        
+                        a {
+                            font-size: 0;
+                            border: none;
+                            &:hover {
+                                background: none;
+                                opacity: 1;
+                            }
+                        }
+
+                        &.menu-email-link {
+                            margin-left: 5%;
+                        }
+
+                        &.menu-linkedin-link {
+                            margin-right: 5%;
+                        }
+
+                        &:not(:last-child) {
+                            margin-right: 10px;
+                        }
+
+                        flex-grow: 1;
+                        height: 50px;
+                        margin-top: 20px;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .tc-home-tracking {
+
+        padding: 24px 20px 20px;
+        display: block;
+
+        .home-calc {
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 20px;
+                max-width: 40px;
+            }
+        }
+
+        .et_pb_column:first-child {
+            margin-bottom: 10px;
+        }
+
+        .et_pb_column.et-last-child {
+
+            grid-template-columns: 1fr;
+            gap: 10px 0;
+        }
+
+        .tracking-title {
+            margin-bottom: 10px
+        }
+
+    }
+
+    //Search Module
+    .tc-home-tracking {
+
+        .home-tracking-link {
+
+            padding: 20px 10px;
+
+            .tarifas .title,
+            .oficinas .title,
+            .hacer-envio .title {
+                max-width: unset;
+            }
+
+            .title {
+                margin: 0;
+            }
+
+            img {
+                margin-bottom: 0;
+            }
+
+        }
+    }
+
+    /*********************************
+        Calculadora de Tarifas
+    **********************************/
+
+    .entry-content {
+
+        .rates-form {
+
+            .et_pb_column {
+                margin-bottom: 0;
+            }
+
+            .form-mandatory-msg-2 {
+                text-align: center;
+            }
+
+            #rates-result-table {
+                tbody {
+                    display: grid;
+                    grid-template-columns: 1fr;
+
+                    tr {
+                        border-right: none;
+                        min-height: auto;
+                    }
+
+                    tr td {
+                        text-align: start;
+                        padding: 6px 0;
+                    }
+
+                    tr th {
+                        border-top: none;
+                        border-right: none;
+                        padding: 10px 0 0;
+                    }
+                }
+
+                tr:last-child th {
+                    border-top: none;
+                }
+            }
+
+            .select2.select2-container {
+                max-width: none;
+            }
+
+            .pv-label {
+                margin-bottom: .8em;
+            }
+
+            .form-mandatory-msg-1 {
+                display: none;
+            }
+
+            .form-mandatory-msg-2 {
+                display: block;
+                margin-bottom: 30px;
+            }
+
+            .result-table {
+                h2 {
+                    padding-bottom: 30px;
+                    margin-bottom: 0;
+                }
+            }
+
+        }
+
+    }
+
+    /*********************************
+        Blog
+    **********************************/
+
+    .tc-blog {
+
+        .et_pb_ajax_pagination_container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    /*********************************
+        Footer
+    **********************************/
+    .tc-footer {
+        ul.footer-links {
+
+            li:first-child {
+                padding: 1em 0 .25em;
+            }
+
+            li {
+                padding: .25em 0 .25em;
+            }
+        }
+    }
+
+    /*********************************
+        Rows
+    **********************************/
+
+    .tc-row {
+        .et_pb_column:first-child {
+            .et_pb_text {
+                padding-right: 0;
+            }
+        }
+    }
+
+
+    /*********************************
+        Services
+    **********************************/
+    .tc-home-services h3 {
+        font-size: 2.8rem;
+        line-height: 1.15em;
+    }
+
+}

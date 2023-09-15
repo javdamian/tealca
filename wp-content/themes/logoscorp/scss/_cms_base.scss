@@ -1,0 +1,396 @@
+.logoscorp {
+    .tc-office-map-app {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .et_pb_button {
+            clip-path: polygon(88% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+            margin-bottom: 20px;
+        }
+    }
+
+    /*********************************
+        Offices
+    *********************************/
+
+    .banner-office-datail {
+        .office-detail-title {
+            font-size: clamp(40px, 4.17vw, 80px);
+        }
+    }
+
+    .offices-selection {
+
+        .accordion {
+            display: flex;
+            border-top: 1px solid $light-gray;
+
+        }
+
+        .form-label {
+
+            font-family: 'Graphik Medium', Helvetica, Arial, Lucida, sans-serif;
+        }
+
+        .offices-select {
+            margin-bottom: 30px;
+        }
+
+        .location-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-top: 1em;
+        }
+
+        .state-name {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 0;
+            margin-right: 4%;
+            padding: 5px 0 0 0;
+            min-width: 157px;
+            width: 157px;
+
+            a:hover {
+                color: $dark-blue;
+            }
+        }
+
+        .office-button {
+
+            display: flex;
+            align-items: center;
+            margin: 0;
+            background-color: #F6F6F6;
+            border: none;
+            transition: all .25s ease;
+            padding: 0;
+            width: 100%;
+
+            a {
+                color: $dark-blue;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                margin: 0;
+                font-family: 'Graphik Medium', Helvetica, Arial, Lucida, sans-serif;
+                font-size: 1rem;
+                font-weight: 700;
+                letter-spacing: -0.16px;
+                line-height: 1.4;
+                padding: .425em 15px .325em 5px;
+                background-color: #F6F6F6;
+                border: none;
+                transition: all .25s ease;
+                width: 100%;
+                min-height: 70px;
+                //transition: scale .5s ease;
+
+                &:hover {
+                    background-color: #dedede;
+                    color: $light-blue;
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+                    &:before {
+                        transform: scale(1.1625);
+                        transition: all .5s ease;
+                    }
+                }
+
+                &:before {
+                    content: url(/wp-content/uploads/2021/06/001_ICONO_GPS.svg);
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 15px;
+                }
+            }
+
+        }
+
+        .offices-list {
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+            gap: 1em;
+            width: 100%;
+        }
+
+        .offices-by-state {
+            display: flex;
+            padding: 40px 0 35px;
+            //border-bottom: 1px solid $light-gray;
+            width: 100%;
+        }
+
+        .offices-by-state:not(:last-child) {
+            border-bottom: 1px solid $light-gray;
+        }
+
+        .all-offices {
+            width: 100%;
+        }
+
+        .offices-group {
+            width: 100%;
+        }
+
+        &.office-detail {
+
+            .office-button {
+                min-height: none;
+            }
+        }
+    }
+
+    /*********************************
+        Office Details
+    **********************************/
+
+    .office-info-toggle {
+
+        .et_pb_toggle_title {
+            border-bottom: 1px solid #efefef;
+            line-height: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .row {
+            .phones-col {
+                border-left: 1px solid #efefef;
+                padding-left: 5%;
+            }
+
+            .address-col {
+                padding-right: 10%;
+            }
+        }
+
+        .office-detail {
+
+            &.offices-selection {
+
+                .office-button a {
+                    min-height: unset;
+                }
+            }
+
+            .zone-name {
+                color: $dark-blue;
+                background: $light-gray;
+                color: #152B3A;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                margin: 0;
+                font-family: 'Graphik Medium', Helvetica, Arial, Lucida, sans-serif;
+                font-size: 0.9375rem;
+                font-weight: 700;
+                letter-spacing: -0.16px;
+                line-height: 1.4;
+                padding: .425em 15px .325em 5px;
+                background-color: #F6F6F6;
+                border: none;
+                transition: all .25s ease;
+                width: 100%;
+                min-height: 54px;
+
+                &:before {
+                    content: url(/wp-content/uploads/2021/06/001_ICONO_GPS.svg);
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    /*********************************
+        Únete a Nosotros
+    **********************************/
+
+    .unete-solicitudes {
+
+        .et_pb_row {
+            display: flex;
+        }
+
+        .et_pb_column {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .et_pb_image {
+                margin-bottom: 20px;
+            }
+
+            .et_pb_button {
+                font-size: 15px;
+                width: 100%;
+                background-color: white;
+                color: $light-blue;
+                border: 1px solid $light-blue;
+                text-align: center;
+                padding: 1em !important;
+
+                &:hover {
+                    color: white !important;
+                    background-color: $light-blue;
+                    border: 1px solid $light-blue;
+                }
+            }
+
+            .title-text {
+                margin-bottom: 10px;
+
+                h3 {
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            .desc-text {
+                margin-bottom: 30px;
+            }
+        }
+
+        a {
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    .unete-title-form {
+
+        &:before {
+            position: absolute;
+            left: 0;
+            transform: scale(.6) translate(-50%, -50%);
+            top: -10px;
+        }
+
+        h3 {
+            padding-bottom: 0;
+            margin-left: 2.25em;
+        }
+
+    }
+
+    /*********************************
+        Contacto
+    **********************************/
+    .contact-form-section {
+
+        .et_pb_column {
+
+            a {
+                color: $dim-gray
+            }
+
+            p {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+
+            .contact-title {
+                grid-area: title;
+                padding-right: 2.5%;
+            }
+
+            .contact-phones {
+                grid-area: phones;
+
+                &:before {
+                    position: absolute;
+                    margin: 2px 0 0 3px;
+                }
+            }
+
+            .contact-form {
+                grid-area: form;
+                margin-top: 30px;
+            }
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas: "title phones"
+            "form form";
+
+            .telefonos-contacto {
+                display: grid;
+                width: 100%;
+                grid-template-columns: repeat(2, 1fr);
+                margin-left: 2em;
+                max-width: 280px;
+                gap: 5px 40px;
+                margin-left: 60px;
+
+                .blue-bold a {
+                    color: #0560a2;
+                    font-weight: 900;
+                    font-size: 20px;
+                    font-family: 'rajdhani';
+                    letter-spacing: -.7px;
+                }
+            }
+        }
+    }
+
+    /*********************************
+        Hacer envío toggles
+    **********************************/
+
+    .toggle-services-row {
+
+        .et_pb_toggle {
+            border: none;
+            border-top: 1px solid #eaeaea;
+            border-bottom: 1px solid #eaeaea;
+            background-color: transparent;
+            margin-bottom: 10px;
+            padding: 25px 0;
+
+            .et_pb_toggle_title {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .blog-home-button-wrapper {
+        width: 221px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        clip-path: polygon(88% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+        padding: 1px;
+        background-color: $light-blue;
+
+        .blog-home-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 !important;
+            background-color: white;
+            color: $light-blue;
+            border: none;
+            width: 100%;
+            height: 60px;
+            clip-path: polygon(88% 0, 100% 51%, 100% 100%, 0 100%, 0 0);
+
+            &:hover {
+                background-color: $light-blue;
+                color: white!important;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

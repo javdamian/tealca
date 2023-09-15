@@ -1,0 +1,22 @@
+.logoscorp {
+
+    /*********************************
+        Header
+    **********************************/
+    &.et-db #et-boc .et-l--header {
+        .tc-header {
+            
+            .tc-header-menu {
+
+                &.et_pb_menu .et-menu>li {
+                    padding-left: 9px;
+                    padding-right: 9px;
+                }
+            }
+
+            .et_pb_menu__search-container {
+                padding-left: 105px!important;
+            }
+        }
+    }
+}
